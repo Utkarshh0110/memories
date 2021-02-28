@@ -14,9 +14,6 @@ app.use('/posts', postRoutes);
 
 //Using cloud atlas version of mongodb
 
-// const CONNECTION_URL =
-//   "mongodb+srv://memoriesApp:Kiran@12@cluster0.hoclt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-
 const PORT = process.env.PORT || 5000;
 
 mongoose
